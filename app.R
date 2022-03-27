@@ -12,7 +12,7 @@ assay_list <-read.csv("GeoToxHazard-App/assay_list.csv")
 assay_list <- as.list(assay_list)
 states <- st_as_sf(maps::map("state", plot = FALSE, fill = TRUE))
 heatmap_df <- read.csv("GeoToxHazard-App/heatmap_df.csv")
-chem_count_df <- readRDS("GeoToxHazard-App/chem_count_sp.rds")
+#chem_count_df <- readRDS("GeoToxHazard-App/chem_count_sp.rds")
 localG_df <- readRDS("GeoToxHazard-App/localG_sp.rds")
 
 # User interface ----
