@@ -1,10 +1,10 @@
 # Load packages ----
 require(shiny)
-library(shinythemes)
-library(maps)
-library(mapproj)
-library(ggplot2)
-library(sf)
+require(shinythemes)
+require(maps)
+require(mapproj)
+require(ggplot2)
+require(sf)
 
 # Load data ----
 RQ_df <- readRDS("GeoToxHazard-App/nata_tox21_sp.rds")
