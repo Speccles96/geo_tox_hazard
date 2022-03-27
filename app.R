@@ -1,5 +1,5 @@
 # Load packages ----
-library(shiny)
+require(shiny)
 library(shinythemes)
 library(maps)
 library(mapproj)
